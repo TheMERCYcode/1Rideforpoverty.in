@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(donation.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* size: 18px; */
+    font-size: 50px;
+    
+
+}
+
+header h2{
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+.container2{
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    margin:40px;
+    padding:40px;
+
+}
+.container h1{
+    font-family: 'Heebo', sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid black;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.box{
+    width: 100%; 
+    margin: 22px 0px;
+    border-bottom: 2px solid black;
+    /* font-size:0px; */
+}
+.box input{  
+    background: none;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    color: black;
+}
+    .btn {
+        position: flex;
+        right: 284px;
+        bottom: -9px;
+        padding: 6px 20px;
+        border: 2px solid white;
+        background-color: brown;
+        color: white;
+        margin: 17px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+.box i{ 
+    width: 25px; 
+    text-align: center;
+}
+.btn:hover{
+    opacity: 0.5;
+    color: darkgrey; 
+    background: white; 
+    
+}
+form-control{
+    size: 12px;
+    /* font-size: 40px; */
+}
+
+
